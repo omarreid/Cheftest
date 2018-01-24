@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "uksouth"
+        },
+        "virtualMachineName": {
+            "value": "TestARMTemp"
+        },
+        "virtualMachineSize": {
+            "value": "Basic_A1"
+        },
+        "adminUsername": {
+            "value": "sjaadmin"
+        },
+        "virtualNetworkName": {
+            "value": "sjachef-4qdw-VNet"
+        },
+        "networkInterfaceName": {
+            "value": "testarmtemp562"
+        },
+        "networkSecurityGroupName": {
+            "value": "TestARMTemp-nsg"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "sjatestdiag942"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/3b8ca618-442d-48c4-ae39-4a4a3cd668b9/resourceGroups/sjatest/providers/Microsoft.Storage/storageAccounts/sjatestdiag942"
+        },
+        "subnetName": {
+            "value": "sjachef-4qdw-Subnet"
+        },
+        "publicIpAddressName": {
+            "value": "TestARMTemp-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        }
+    }
+}
